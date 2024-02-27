@@ -23,7 +23,7 @@ const Buscador = ({ input, onChange }) => {
           </Form.Group>
           <Form.Group className='mb-3' controlId='formBasicEmail'>
             <Form.Label>Busca tu pelicula aqui:</Form.Label>
-            <Form.Control type='text' name='search' value={input.search} onChange={onChange} placeholder='Advenger, DC Universe, Mario Brothers...' />
+            <Form.Control type='text' name='search' value={input.search} onChange={onChange} placeholder='Avengers, DC Universe, Mario Brothers...' />
             <Form.Text className='text-muted'>
               Busca por titulo, personajes, actores o id si lo conoces.
             </Form.Text>
